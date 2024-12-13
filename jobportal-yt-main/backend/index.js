@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'http://localhost:5173',
+    origin:['http://localhost:5173','https://job-hunt-frontend-mhxkfbb40-tushars-projects-749fed38.vercel.app'],
     credentials:true
 }
 
